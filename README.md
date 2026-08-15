@@ -414,6 +414,53 @@ Market Microstructure
         |
         v
 Execution Analysis
+============================================================
+ LIMIT ORDER BOOK & MATCHING ENGINE
+============================================================
+
+Running execution simulation...
+
+=======================================================
+LIMIT ORDER BOOK
+=======================================================
+
+ASKS
+-------------------------
+
+-------------------------
+-------------------------
+
+BIDS
+-------------------------
+Price:   100.50 | Quantity:     5
+Price:    99.50 | Quantity:     3
+Price:    99.00 | Quantity:    10
+=======================================================
+
+MARKET MICROSTRUCTURE
+----------------------------------------
+Best Bid          : 100.50
+Best Ask          : None
+Mid Price         : None
+Bid-Ask Spread    : None
+
+EXECUTION STATISTICS
+----------------------------------------
+Total Trades      : 5
+Total Volume      : 27
+Execution VWAP    : 100.0926
+
+EXECUTED TRADES
+-----------------------------------------------------------------
+Trade   1 | Price:   100.00 | Qty:    5 | Buy:   6 | Sell:   1
+Trade   2 | Price:   100.00 | Qty:    7 | Buy:   6 | Sell:   2
+Trade   3 | Price:   100.50 | Qty:    3 | Buy:   6 | Sell:   3
+Trade   4 | Price:    99.50 | Qty:    5 | Buy:   4 | Sell:   7
+Trade   5 | Price:   100.50 | Qty:    7 | Buy:   8 | Sell:   3
+
+============================================================
+ SIMULATION COMPLETED SUCCESSFULLY
+============================================================
 Learning Outcomes
 This project demonstrates practical understanding of:
 Limit order books
